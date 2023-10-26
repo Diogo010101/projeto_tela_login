@@ -1,0 +1,77 @@
+body{
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    background-image: url('../img/login.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+form input{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.borda{
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin: 5px 0px;
+    color: white;
+}
+
+.interno_input{
+    width: 240px;
+}
+
+#borda_entrar{
+    background-color: rgb(70, 209, 163);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    width: 300px;
+    height: 49px;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#borda_entrar:hover{
+    background-color: rgb(48, 150, 116);
+    
+}
+
+#id_reset_senha{
+    background: none;
+    border-radius: 5px;
+    color: rgb(53, 165, 128);
+    border: 1px solid rgb(70, 209, 163);
+    width: 300px;
+    height: 49px;
+    font-size: 1em;
+    cursor: pointer;
+
+}
+
+
+#id_reset_senha:hover{
+    background-color: rgb(53, 165, 128);
+    color: white;
+}
