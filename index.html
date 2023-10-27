@@ -5,32 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+
     <title>Login</title>
 </head>
 <body>
-    <section>
-        <form action="#" method="post">
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-            
-            <div class="borda">
-                <label for="id_email">&#x1F464;</label>
-                <input class="interno_input" type="email" name="email" id="id_email">
-            </div>
-
-            <div class="borda">
-                <label for="id_senha">&#x1F511;</label>
-                <input class="interno_input" type="password" name="senha" id="id_senha" minlength="8">
-            </div>
-
-            <div>
-                <input id="borda_entrar" type="submit" value="Entrar">
-            </div>
-
-            <div >
-                <button id="id_reset_senha">Esqueci a Senha &#x2709;</button>
-            </div>
-        </form>
-    </section>
+    <main>
+        <section>
+            <div id="imagem"></div>
+            <form action="#" method="post">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        
+                <div class="borda">
+                    <label for="id_email">&#x1F464;</label>
+                    <input class="interno_input" type="email" name="email" id="id_email" placeholder="seu@email.com">
+                </div>
+                <div class="borda">
+                    <label for="id_senha">&#x1F511;</label>
+                    <input class="interno_input" type="password" name="senha" id="id_senha" minlength="8" placeholder="Min: 8 Caracteres" maxlength="15">
+                </div>
+                <div>
+                    <input id="borda_entrar" type="submit" value="Entrar">
+                </div>
+                <div >
+                    <button id="id_reset_senha">Esqueci a Senha &#x2709;</button>
+                </div>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
